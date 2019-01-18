@@ -45,15 +45,18 @@ Edit this document to include your answers after each question. Make sure to lea
 *Mobile-first  means that you start designing a site or app for mobile screens first; this decision is made when mobile hits are a larger % of your traffic. Starting with the mobile approach means you must be focused on the most important content first, before using min-width media queries for larger screens to progressively enhance the layout for a tablet and desktop. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
 *REM (root em) are a way of setting font-sizes based on the font-size of the root   HTML element. 
 *The default settings of most browsers (and Chrome) is 16px and so 1 rem = 16px. However, when we add the property font-size: 62.5% to the html tag, we are changing this default browser font-size to 10px (saying 16px * 62.5% = 10px) without hard coding. This we get a base of 10, where 1 rem = 10px at medium browser settings.
 
 4. How would you describe preprocessing to someone new to CSS?
+
 *Preprocessing is a more robust and efficient syntax for writing CSS. It extends CSS with different functionality including introducing variables, nesting, mixins, and etc. After writing in LESS syntax the code runs through a compiler which spits out a new file and translates our syntax into CSS. 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
 *Favorite concept is variables so that I don't have to remember hex codes and can instantly change the color theme of my website design without much work
-*Least favorite concept is mixins because I'm still not used to the syntax, especially with parametric mixins. However, I do realize their power, especially when it comes to creating a mixin for a simple test border.
+*Least favorite concept is mixins because I'm still not used to the syntax, especially with parametric mixins. However, I do realize their power.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -93,7 +96,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [Xg] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [X] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -131,7 +134,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [ X [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
