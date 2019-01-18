@@ -10,7 +10,7 @@
     width: @width;
     height: @height;
     color: white;
-    font-size: 1.7rem;
+    font-size: 2rem;
     text-align: center;
     background-color: @button-bg-color;
     border-radius: 10px;
@@ -20,4 +20,12 @@
     &:hover {
         background-color: lighten(@button-bg-color, 50%);
     }
+}
+
+
+//Custom layout mixin
+.custom-layout(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
 }
