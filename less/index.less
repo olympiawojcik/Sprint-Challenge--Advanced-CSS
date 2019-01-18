@@ -2,8 +2,22 @@
 
 
 
+//The CSS @import rule allows us to import a stylesheet
+//into another stylesheet. It must be at the top
+//of the document. The stylesheet URL must be in a string.
 
+//Var & Mixins here bc they are lazy loaded
+@import "variables";
+@import "mixins";
 
+//General Styles here
+@import "reset";
+@import "global";
+
+//Components here
+@import "navigation";
+@import "footer";
+@import "home-page";
 
 
 
