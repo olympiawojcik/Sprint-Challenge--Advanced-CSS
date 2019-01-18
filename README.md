@@ -53,7 +53,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 *Favorite concept is variables so that I don't have to remember hex codes and can instantly change the color theme of my website design without much work
-*Least favorite concept is the viewport, because I don't fully understand what viewport meta tag does
+*Least favorite concept is mixins because I'm still not used to the syntax, especially with parametric mixins. However, I do realize their power, especially when it comes to creating a mixin for a simple test border.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -70,7 +70,7 @@ Follow these steps to set up your project:
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -84,7 +84,7 @@ Follow these steps for completing your project.
 * [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 * [X] Open your terminal and navigate to your preprocessing project by using the `cd` command
 * [X] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [X] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
 * [X] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ## Minimum Viable Product
@@ -113,19 +113,19 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [X] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [X] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [X] Navigation Styles: Use the `navigation.less` file for styling.
 
 * [ ] Main Content Styles: Use the `home-page.less` file for styling
 
 * [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [X] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [X]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [X] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 

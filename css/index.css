@@ -1,3 +1,4 @@
+@phone (max-width: 800px);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -227,6 +228,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 35%;
+  height: 40px;
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #808080;
 }
 .home .walk .walk-img {
   width: 46%;
