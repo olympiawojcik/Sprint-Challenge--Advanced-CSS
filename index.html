@@ -13,14 +13,14 @@
     
     The browser's viewport is the window in which web content can be seen. The viewport varies with devices; 
     it's smaller on mobile and larger on desktop. However, the viewport is often NOT the same size as the
-    rendered page.Without a viewport meta tag, mobile devices render pages at typical desktop screen widths, 
+    rendered page. Without a viewport meta tag, mobile devices render pages at typical desktop screen widths, 
     and then scale the pages to fit the mobile screens, in which case the browser provides scrollbars for 
     the user to scroll around and access all of the content. 
     
     HTML5 introduced a method that lets web designers take control over the viewport through the meta tag. 
-    This means  we can tell the browser to display your web property at the width of the device.
+    This means  we can tell the browser how to render a page properly at the width of the device.
     
-    
+  
     It is madeup of 3 parts
     1. <meta> element gives the browser instructions on how to control the page's dimensions and scaling
     2. width=width-device sets the width of the page to the width of the device
@@ -41,11 +41,22 @@
 <body>
 
  <!-- navigation code here -->
+  <div class="navbar">
+  <h1>SpaceWalkers</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+    <a href="#">Sign In</a>
+  </nav>>
+  </div>
 
   <div class="container home">
 
     <header class="intro">
        <!-- image code here -->
+       <img src="img/main-header.png">
 
       <h2>Lift Off</h2>
     

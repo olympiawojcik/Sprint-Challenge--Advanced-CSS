@@ -151,7 +151,8 @@ h2 {
 h3 {
   font-size: 2.8rem;
 }
-p {
+p,
+a {
   font-size: 1.6rem;
   line-height: 1.4;
 }
@@ -159,6 +160,21 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.navbar {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #F6F6F6;
+}
+.navbar h1 {
+  font-size: 4.5rem;
+  margin-bottom: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 2%;
 }
 footer {
   color: #22283B;
