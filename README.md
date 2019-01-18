@@ -34,7 +34,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+*A website with an adaptive layout has the ability to accomodate different devices at specific breakpoints in design, however, the layout widths are hard coded pixels. Because of this hard-coding, adaptive layouts do not accomodate thousands of devices; they only accomodate to specific breakpoints.
+
+*In contrast, a fully responsive website uses width constraints with % (vs pixels) so that the transition from different size screens is a more seamless feeling. We use the CSS property, max-width, to control the maximum width of a container and then use % below it to provide flexibility. Fully responsive layouts accomodate many more thousands of screens, but take much longer to build.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+*Mobile first vs. desktop first are two types of responsive design strategy. 
+*Desktop-first means that you are designing a website for a full-sized screens; this decision might be made when the desktop experience is more important for the end-user than the mobile experience. Only after the desktop version is built do you then introduce max-width media queries for smaller screens and hide/wrap elements for the mobile experence.
+*Mobile-first  means that you start designing a site or app for mobile screens first; this decision is made when mobile hits are a larger % of your traffic. Starting with the mobile approach means you must be focused on the most important content first, before using min-width media queries for larger screens to progressively enhance the layout for a tablet and desktop. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
