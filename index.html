@@ -3,7 +3,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!--
+    
+    The meta tag in HTML provides meta data about the HTML. Meta data is data that describes
+    and gives info about other data. It's not displayed on the screen, but it is machine parsablle.
+    They are used to specify title, author, last modified, etc.
+    
+    The browser's viewport is the window in which web content can be seen. The viewport varies with devices; 
+    it's smaller on mobile and larger on desktop. However, the viewport is often NOT the same size as the
+    rendered page.Without a viewport meta tag, mobile devices render pages at typical desktop screen widths, 
+    and then scale the pages to fit the mobile screens, in which case the browser provides scrollbars for 
+    the user to scroll around and access all of the content. 
+    
+    HTML5 introduced a method that lets web designers take control over the viewport through the meta tag. 
+    This means  we can tell the browser to display your web property at the width of the device.
+    
+    
+    It is madeup of 3 parts
+    1. <meta> element gives the browser instructions on how to control the page's dimensions and scaling
+    2. width=width-device sets the width of the page to the width of the device
+    3. initial-scale=1.0 sets the initial zoom level
+  
+
+  -->
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
@@ -26,46 +50,39 @@
       <h2>Lift Off</h2>
     
       <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
-    </header>
+    </header> <!-- header class: intro-->
 
     <section class="space-images">
         <img src="img/blast.png" class="blast" alt="Rocket blasting off">
         <img src="img/sky.png" class="sky" alt="Space sky image">
         <img src="img/launch.png" class="launch" alt="Launching rocket">
-    </section>
+    </section> <!-- section class: space-images-->
    
     <section class="visit-planets">
-     
       <h3>Can We Visit Planets?</h3>
-    
       <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet.</p>
-    
       <p>Which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it.</p>
-    </section>
+    </section> <!-- section class: visit-planets-->
     
     <section class="walk">
       <div class="walk-text">
         <h3>Let's Go For A Walk</h3>
-
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
-      
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
-      
         <div class="btn">
           Sign Up
-        </div>
-      </div>
+        </div> <!-- div class: btn-->
+      </div>  <!-- div class: walk-text-->
       
       <div class="walk-img">
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
-
-    </section>
+    </section> <!-- section class: walk -->
 
     <footer>
       <p>Copyright SpaceWalkers 2018</p>
     </footer>
 
-  </div>
-</body>
+  </div> <!-- div class: container -->
+</body>  
 </html>
